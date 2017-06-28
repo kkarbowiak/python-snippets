@@ -5,7 +5,7 @@ def for_(start, stop):
     print('<-\n')
 
 def for_c(start, stop, con):
-    print('-> for loop from {} to {} with continue'.format(start, stop))
+    print('-> for loop from {} to {} with continue {}'.format(start, stop, con))
     for i in range(start, stop):
         print(i)
         if i == con:
@@ -13,7 +13,7 @@ def for_c(start, stop, con):
     print('<-\n')
 
 def for_b(start, stop, bre):
-    print('-> for loop from {} to {} with break'.format(start, stop))
+    print('-> for loop from {} to {} with break {}'.format(start, stop, bre))
     for i in range(start, stop):
         print(i)
         if i == bre:
@@ -29,7 +29,7 @@ def for_e(start, stop):
     print('<-\n')
 
 def for_ce(start, stop, con):
-    print('-> for loop from {} to {} with continue and else'.format(start, stop))
+    print('-> for loop from {} to {} with continue {} and else'.format(start, stop, con))
     for i in range(start, stop):
         print(i)
         if i == con:
@@ -39,7 +39,7 @@ def for_ce(start, stop, con):
     print('<-\n')
 
 def for_be(start, stop, bre):
-    print('-> for loop from {} to {} with break and else'.format(start, stop))
+    print('-> for loop from {} to {} with break {} and else'.format(start, stop, bre))
     for i in range(start, stop):
         print(i)
         if i == bre:
@@ -49,7 +49,7 @@ def for_be(start, stop, bre):
     print('<-\n')
 
 def for_cbe(start, stop, con, bre):
-    print('-> for loop from {} to {} with continue, break, and else'.format(start, stop))
+    print('-> for loop from {} to {} with continue {}, break {}, and else'.format(start, stop, con, bre))
     for i in range(start, stop):
         print(i)
         if i == con:
