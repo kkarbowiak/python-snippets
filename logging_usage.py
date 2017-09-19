@@ -2,7 +2,7 @@ import logging
 
 
 def main():
-    logging.basicConfig(format='%(asctime)s %(message)s')
+    logging.basicConfig(format='%(asctime)s %(levelname)s: %(message)s')
     logging.debug('this is a debug message')
     logging.info('this is an info message')
     logging.warning('this is a warning message')
